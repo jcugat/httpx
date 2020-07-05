@@ -1,34 +1,34 @@
 -e .
 
 # Optional
-brotlipy==0.7.*
+brotlipy==0.7.0
 
 # Documentation
-mkdocs
-mkautodoc
-mkdocs-material
+mkdocs==1.1.2
+mkautodoc==0.1.0
+mkdocs-material==5.4.0
 
 # Packaging
-twine
+twine==3.2.0
 wheel
 
 # Tests & Linting
-autoflake
-black
-cryptography
-flake8
-flake8-bugbear
-flake8-pie
-isort==5.*
-mypy
-pytest
-pytest-asyncio
-pytest-trio
-pytest-cov
-trio
-trio-typing
-trustme
-uvicorn
-seed-isort-config
+autoflake==1.3.1
+black==19.10b0
+cryptography==2.9.2
+flake8==3.8.3
+flake8-bugbear==20.1.4
+flake8-pie==0.5.0
+isort==5.0.3
+mypy==0.782
+pytest==5.4.3
+pytest-asyncio==0.14.0
+pytest-trio==0.6.0
+pytest-cov==2.10.0
+trio==0.16.0
+trio-typing==0.5.0
+trustme==0.6.0
+uvicorn==0.11.5
+seed-isort-config==2.2.0
 
 attrs>=19.2  # See: https://github.com/encode/httpx/pull/566#issuecomment-559862665
