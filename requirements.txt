@@ -28,7 +28,7 @@ pytest-cov==2.10.0
 trio==0.16.0
 trio-typing==0.5.0
 trustme==0.6.0
-uvicorn==0.11.5
+uvicorn==0.11.8
 seed-isort-config==2.2.0
 
 attrs>=19.2  # See: https://github.com/encode/httpx/pull/566#issuecomment-559862665
